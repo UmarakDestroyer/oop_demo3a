@@ -184,22 +184,7 @@ public class Verkkokauppa {
         }
         return s.toString();
     }
-/*
-Käyttöliittymäluokasta VerkkokauppaUI puuttuu kokonaan toiminnallisuus ostotapahtumien käsittelyyn. Toteuta siis metodi ostotapahtumaMenu ja kaikki sen mahdollisesti tarvitsemat apumetodit.
 
-Ostotapahtumamenu pitää näyttää käyttäjälle lista ostotapahtumista ja valikko, josta käyttäjä voi joko lisätä uuden tapahtuman, poistaa jonkin nykyisistä tai palata päävalikkoon.
-
-Ostotapahtuma lisätään niin, että aluksi näytetään lista myyjistä ja pyydetään käyttäjää valitsemaan näistä yksi. Sen jälkeen sama tehdään tuotteille ja lopuksi asiakkaille. 
-
-Tämän jälkeen ohjelma vielä pyytää käyttäjää syöttämään myytävien tuotteiden kappalemäärän. Tuotetta ei tietenkään voi ostaa enempää kuin mitä sitä varastossa on.
-
-Ohjelman tulee laskea ostotapahtumalle oikea hinta huomioiden käyttäjän mahdollisen alennusprosentin (muista mahdolliset kanta-asiakkaat)! Tämän jälkeen ostotapahtuma tallennetaan tapahtumalistan loppuun. 
-
-Tuotesaldoa tulee pienentää myydyn määrän verran. Ostotapahtumassa mukana oleva myyjä saa provisiota 10 % yhteishinnasta. Huomaa myös, että asiakkaan ostot kasvavat yhteissummalla.
-
-Ostotapahtumaa poistettaessa annetaan poistettavan tapahtuman järjestysluku. Tätä varten järjestysluvut listataan käyttäjälle käyttöliittymässä. Huomaa, että käyttäjälle näytettävät luvut alkavat indeksistä 1.
-
-Ota mallia muusta toteutuksesta ja hyödynnä sekä käyttöliittymäluokassa että luokassa Verkkokauppa valmiina olevaa toiminnallisuutta.*/
     /**
      * Palautta kaikki tuotteet yhtenä merkkijonona.
      *
